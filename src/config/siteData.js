@@ -138,46 +138,73 @@ const siteData = {
             date: "Jan 2025"
         },
         {
-            title: "AI Developers Summit",
-            location: "Remote",
+            title: "ZARAK 2K25 - HCAS",
+            location: "Onsite",
             images: [
-                "https://images.unsplash.com/photo-1475721025505-4429bdc5fc17?auto=format&fit=crop&q=80&w=600",
-                "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&q=80&w=600",
-                "https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&q=80&w=600"
+                "https://media.licdn.com/dms/image/v2/D5622AQHa_VxLCDkF3A/feedshare-shrink_2048_1536/B56ZmMX5PRHUAw-/0/1758996706612?e=1776297600&v=beta&t=fYx3RQt_M6slFnvbDxtutCSP5KSgf8fiybZuE_IdvVs",
+                "https://media.licdn.com/dms/image/v2/D5622AQHlPX1c9QqBhg/feedshare-shrink_2048_1536/B56ZmMX5PUHAAw-/0/1758996699216?e=1776297600&v=beta&t=8QJav6vHfcyUIRHIPrM_nJrXUOK6kPeYj2XtmN1gi2w",
+                "https://media.licdn.com/dms/image/v2/D5622AQHlwcKtbSjgtw/feedshare-shrink_2048_1536/B56ZmMX5O2JkAw-/0/1758996700843?e=1776297600&v=beta&t=EVP_x2wUxCKkOYX74JyLWOqijB8ur9gyL-yscOFXwfo",
+                "https://media.licdn.com/dms/image/v2/D5622AQFmHZ7TraHvsg/feedshare-shrink_2048_1536/B56ZmMX5OvJsAw-/0/1758996701652?e=1776297600&v=beta&t=nCdi3YKDCSzOPFh7LR6zVPf-6_yt3GdZqm5DZDpRKrg"
             ],
-            description: "Explored advanced techniques in agentic AI and RAG architecture.",
-            date: "Jan 2025"
-        }, {
-            title: "AI Developers Summit",
-            location: "Remote",
+            description: "Presented on “The Role of Data Science in Industry 4.0 Manufacturing,” showcasing how AI, IoT and data-driven insights enable predictive maintenance, real-time monitoring and smarter operations. Gained valuable exposure to smart manufacturing innovations and strengthened my vision of integrating AI with industrial transformation.",
+            date: "Sep 2025"
+        }, 
+        {
+            title: "TN Global Startup Summit 2025",
+            location: "Onsite",
             images: [
-                "https://images.unsplash.com/photo-1475721025505-4429bdc5fc17?auto=format&fit=crop&q=80&w=600",
-                "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&q=80&w=600",
-                "https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&q=80&w=600"
+                "https://media.licdn.com/dms/image/v2/D5622AQE8Bx5GQ0l5rw/feedshare-shrink_2048_1536/B56ZnoqtXsIsAw-/0/1760545135383?e=1776297600&v=beta&t=RvvuKzm7BCQnfDOTEc9ASwTjfr-g_AfF8qDWhXUyrck",
+                "https://media.licdn.com/dms/image/v2/D5622AQGU2WQR4twtBg/feedshare-shrink_2048_1536/B56ZnoqtW.JYA4-/0/1760545135547?e=1776297600&v=beta&t=HDheHsG70t360Lfr6E4w4C9ffHWcF757wm1xy5lvPEE",
+                "https://media.licdn.com/dms/image/v2/D5622AQHAmQN55-Ppjw/feedshare-shrink_1280/B56ZnoqtXVHIAs-/0/1760545135598?e=1776297600&v=beta&t=r-5BHc55XVTjS-D3FO700iTn-4JEeAkNqgEnYox6iWs",
+                "https://media.licdn.com/dms/image/v2/D5622AQHGBwrd-WQFnA/feedshare-shrink_2048_1536/B56ZnoqtXbKUAw-/0/1760545135694?e=1776297600&v=beta&t=WV0mk1Cdx5TWr3hv0SD4szU2NS5-OkoLRdpAzdfI-IQ"
             ],
-            description: "Explored advanced techniques in agentic AI and RAG architecture.",
-            date: "Jan 2025"
-        }, {
-            title: "AI Developers Summit",
-            location: "Remote",
+            description: "Attended the Tamil Nadu Global Startup Summit 2025, gaining exposure to cutting-edge innovations, startup ecosystems and global entrepreneurial insights. Engaged with industry leaders, expanded my network and strengthened my perspective on building impactful, scalable solutions.",
+            date: "Oct 2025"
+        }, 
+        {
+            title: "Youth Talk 2025",
+            location: "Onsite",
             images: [
-                "https://images.unsplash.com/photo-1475721025505-4429bdc5fc17?auto=format&fit=crop&q=80&w=600",
-                "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&q=80&w=600",
-                "https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&q=80&w=600"
+                "https://media.licdn.com/dms/image/v2/D5622AQHBxGlgcUBRWA/feedshare-shrink_2048_1536/B56Zno07hnHUAw-/0/1760547817100?e=1776297600&v=beta&t=vu1kmHnWVTKdiZbJ301ZBhFl2n-aISRVHAe_UdUPv2o",
+                "https://media.licdn.com/dms/image/v2/D5622AQFoyyyw-I_TLw/feedshare-shrink_1280/B56Zno07gZJkAs-/0/1760547814250?e=1776297600&v=beta&t=69dQrzbrMRACyiPHlMoziw1pgiz9jcrXqj8Luomeaqo",
+                "https://media.licdn.com/dms/image/v2/D5622AQFXP2LEW5z39w/feedshare-shrink_1280/B56Zno07iGI8As-/0/1760547814909?e=1776297600&v=beta&t=jR7cFZM3aAMbSuG_XV7g4dXDKdi6UPbXJTo00uDsyvI",
+                "https://media.licdn.com/dms/image/v2/D5622AQEWMx6PbqZqzw/feedshare-shrink_1280/B56Zno07hYI0As-/0/1760547814961?e=1776297600&v=beta&t=jlS6JxIMqUpqbXwo2MYq91aJhuUBdX0apHbKcL6uZYg"
             ],
-            description: "Explored advanced techniques in agentic AI and RAG architecture.",
-            date: "Jan 2025"
+            description: "Attended Youth Talk 2025 at Coimbatore, gaining insights into the power of communication, leadership and impactful storytelling among young innovators. Inspired to enhance my public speaking and expression skills while embracing opportunities that foster confidence, clarity and meaningful influence.",
+            date: "Nov 2025"
         },
         {
-            title: "AI Developers Summit",
-            location: "Remote",
+            title: "CIT Alumni Meet 2026",
+            location: "Onsite",
             images: [
-                "https://images.unsplash.com/photo-1475721025505-4429bdc5fc17?auto=format&fit=crop&q=80&w=600",
-                "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&q=80&w=600",
-                "https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&q=80&w=600"
+                "https://media.licdn.com/dms/image/v2/D5622AQFsi9c1OoWK6g/feedshare-shrink_2048_1536/B56Z0JKDwgH0Ao-/0/1773975125568?e=1776297600&v=beta&t=pq40uWZyTIy7iU4OYt93vk06DxpBdVrawTRQP4qT62w",
+                "https://media.licdn.com/dms/image/v2/D5622AQFktiHiyoFpGQ/feedshare-shrink_1280/B56Z0JKAg_H0AM-/0/1773975111975?e=1776297600&v=beta&t=vxKQhtX9M-lU7NYdWp_rprdAyET4zETi-LzHa_UuZuk",
+                "https://media.licdn.com/dms/image/v2/D5622AQFSFmiUfwVqGg/feedshare-shrink_2048_1536/B56Z0JKAnLH8Ak-/0/1773975112422?e=1776297600&v=beta&t=KzRCnJG0SMuNLyfhwXk5752hccX6dXeR3w9M3dkslNI"
             ],
-            description: "Explored advanced techniques in agentic AI and RAG architecture.",
-            date: "Jan 2025"
+            description: "Attended the CIT Alumni Meet, exploring innovative projects and entrepreneurial ideas while engaging with industry leaders and inspiring personalities. Gained valuable insights, mentorship and motivation to apply learnings toward future innovations and team-driven growth.",
+            date: "Mar 2026"
+        },
+        {
+            title: "TNFS National Technical Paper Presentation – VIT Chennai",
+            location: "Onsite",
+            images: [
+                "https://media.licdn.com/dms/image/v2/D5622AQHSCuYIOz4ukw/feedshare-shrink_2048_1536/B56Z0lPf53JgAg-/0/1774446313302?e=1776297600&v=beta&t=4oH9qNM2i62w0Nkjc0tOBzPJw2X7bOFAkPZc8X0SDoc",
+                "https://media.licdn.com/dms/image/v2/D5622AQHN6udlAoMF8A/feedshare-shrink_1280/B56Z0lPf6bJMAM-/0/1774446313396?e=1776297600&v=beta&t=sDwF08guZYds0xaf5TE4uSB0M6HvCNkMeufMGFHn2sY",
+                "https://media.licdn.com/dms/image/v2/D5622AQHCG0xTaq1ZcA/feedshare-shrink_2048_1536/B56Z0lPgx0GYAg-/0/1774446316929?e=1776297600&v=beta&t=7BbEFsrj-QTiUWfkKYj5ufvHMrmFpPAXxP-AAPKT5Mo"
+            ],
+            description: "Participated in the TNFS National Technical Paper Presentation at VIT Chennai, presenting “SmartFire” and securing a place among the Top 23 finalists in the final round. Gained valuable recognition, teamwork experience and motivation to build impactful, technology-driven solutions for real-world challenges.",
+            date: "Mar 2026"
+        },
+        {
+            title: "TNFS National Technical Paper Presentation - VIT Chennai",
+            location: "Onsite",
+            images: [
+                "https://media.licdn.com/dms/image/v2/D5622AQHSCuYIOz4ukw/feedshare-shrink_2048_1536/B56Z0lPf53JgAg-/0/1774446313302?e=1776297600&v=beta&t=4oH9qNM2i62w0Nkjc0tOBzPJw2X7bOFAkPZc8X0SDoc",
+                "https://media.licdn.com/dms/image/v2/D5622AQHN6udlAoMF8A/feedshare-shrink_1280/B56Z0lPf6bJMAM-/0/1774446313396?e=1776297600&v=beta&t=sDwF08guZYds0xaf5TE4uSB0M6HvCNkMeufMGFHn2sY",
+                "https://media.licdn.com/dms/image/v2/D5622AQHCG0xTaq1ZcA/feedshare-shrink_2048_1536/B56Z0lPgx0GYAg-/0/1774446316929?e=1776297600&v=beta&t=7BbEFsrj-QTiUWfkKYj5ufvHMrmFpPAXxP-AAPKT5Mo"
+            ],
+            description: "Participated in the TNFS National Technical Paper Presentation at VIT Chennai, presenting “SmartFire” and securing a place among the Top 23 finalists in the final round. Gained valuable recognition, teamwork experience and motivation to build impactful, technology-driven solutions for real-world challenges.",
+            date: "Mar 2026"
         }
     ],
 
@@ -489,6 +516,27 @@ const siteData = {
             focus: "Data Science transforms traditional manufacturing into intelligent Industry 4.0 systems by using predictive analytics, AI, and real-time monitoring to optimize production, quality control, and supply chain operations.",
             link: "#",
             image: "https://drive.google.com/file/d/1uW9s6GeyzAMa01pJ-KW8AZ2x-2qpgG0o/view?usp=sharing"
+        },
+        {
+            topic: "Advanced Predictive Techniques for Maintenance Optimization",
+            event: "TCE Hackathon",
+            focus: "This presentation outlines an AI-powered system that monitors real-time vehicle sensor data—such as sound, heat, and vibration—to predict part failures and provide optimized maintenance schedules to prevent unexpected breakdowns.",
+            link: "#",
+            image: "https://drive.google.com/file/d/177eeMf3BckYFxvyryn6-fZyE_ZtluYWa/view?usp=sharing"
+        },
+        {
+            topic: "SMARTFIRE AI OPTIMIZER",
+            event: "National Conference - TNFS",
+            focus: "The SmartFire AI Optimizer is an AI-based system designed to optimize fire station locations in Indian cities by integrating multi-variable risk modeling, predictive analytics, and Mixed-Integer Programming (MIP) to enhance emergency coverage and reduce response times.",
+            link: "https://drive.google.com/file/d/1ijhhxfFEOhYg1weJrFElgTeDbzyQODOC/view?usp=sharing",
+            image: "https://drive.google.com/file/d/1ijhhxfFEOhYg1weJrFElgTeDbzyQODOC/view?usp=sharing"
+        },
+        {
+            topic: "Health Guardian AI: Agentic Wearable Health Orchestration System",
+            event: "Research Conference - ICSIEKAHE",
+            focus: "This system aims to transform fragmented wearable health data into orchestrated, actionable clinical intelligence through a multi-agent framework that integrates digital twins, federated learning, and zero-trust security while ensuring clinical interoperability via FHIR standards.",
+            link: "https://drive.google.com/file/d/1wmjS7dQxwDiM2-xpYmUyHDjkkO-M1KtT/view?usp=sharing",
+            image: "https://drive.google.com/file/d/1wmjS7dQxwDiM2-xpYmUyHDjkkO-M1KtT/view?usp=sharing"
         }
     ]
 };

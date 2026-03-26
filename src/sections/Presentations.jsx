@@ -109,7 +109,6 @@ const Presentations = () => {
                             >
                                 <div className="bg-gray-50 dark:bg-[#1E1E1E] rounded-xl overflow-hidden shadow-lg border border-gray-200 dark:border-gray-800 hover:border-primary/50 transition-all duration-300 group flex flex-col h-full">
                                     <div className="relative h-56 overflow-hidden">
-                                        
                                         {pres.link && pres.link.toLowerCase().endsWith('.pdf') ? (
                                             <PdfScrubber pdfUrl={pres.link} defaultImage={getMediaPreviewUrl(pres.image)} />
                                         ) : (
