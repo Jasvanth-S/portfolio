@@ -49,7 +49,7 @@ const About = () => {
                     About <span className="text-primary">Me</span>
                 </h2>
                 <p className="text-center text-gray-500 dark:text-gray-400 max-w-xl mx-auto mb-16 text-sm">
-                    Most developers write code. I engineer solutions — for clients, for teams, and for problems that matter.
+                    Most developers write code. I engineer solutions — for clients, for teams and for problems that matter.
                 </p>
 
                 {/* Profile + Text row */}
@@ -85,7 +85,7 @@ const About = () => {
                             <div className="space-y-1 text-gray-600 dark:text-gray-400">
                                 <p>📚 Learning — System Design, Docker, Advanced RAG</p>
                                 <p>🔨 Building — AI-driven client web platforms</p>
-                                <p>🔍 Open to — Organization roles, Govt R&D, Freelance projects</p>
+                                <p>🔍 Open to — Organization roles, R&D, Freelance projects</p>
                             </div>
                         </div>
 
