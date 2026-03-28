@@ -67,11 +67,13 @@ const Connect = () => (
 function App() {
   // Ensure we start with the correct theme
   useEffect(() => {
-    const isDark = localStorage.getItem('theme') === 'dark' ||
-      (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches);
+    // Default to dark mode unless user has explicitly set light
+    const savedTheme = localStorage.getItem('theme');
+    const isDark = savedTheme !== 'light'; // dark unless explicitly set to light
 
     if (isDark) {
       document.documentElement.classList.add('dark');
+      if (!savedTheme) localStorage.setItem('theme', 'dark');
     } else {
       document.documentElement.classList.remove('dark');
     }
