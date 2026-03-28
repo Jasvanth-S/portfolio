@@ -8,7 +8,7 @@ const siteData = {
             description: "Engineering intelligent full-stack applications that seamlessly integrate frontend interfaces with AI-driven backends. Specialized in deploying LLMs, RAG systems, agentic AI pipelines, and analytics engines into scalable web platforms."
         },
         {
-            title: "AI/ML Developer",
+            title: "AI & ML Engineer",
             description: "Building end-to-end machine learning pipelines from data preprocessing to model deployment. Proficient in supervised, unsupervised, and reinforcement learning techniques using state-of-the-art frameworks."
         },
         {
@@ -16,15 +16,11 @@ const siteData = {
             description: "Creating intelligent autonomous agents with modern orchestration tools that can plan, reason, and execute complex multi-step tasks. Specialized in tool-calling and memory systems."
         },
         {
-            title: "FARM Stack Developer",
+            title: "FARM-Stack Developer",
             description: "Crafting modern, high-performance web applications using blazing-fast APIs, dynamic UIs, and flexible data storage architectures to deliver scalable full-stack solutions."
         },
         {
-            title: "Prompt Engineer",
-            description: "Mastering the art and science of AI communication. Designing advanced prompting strategies, few-shot learning, and system instructions to unlock maximum potential from language models."
-        },
-        {
-            title: "Data/Business Analyst",
+            title: "Data & Business Analyst",
             description: "Converting raw data into strategic insights through advanced analytics, statistical modeling, and compelling visualizations to drive evidence-based business decisions."
         }
     ],
@@ -38,11 +34,10 @@ const siteData = {
     ],
     cvFiles: [
         { role: "Full-Stack AI Developer", file: "/assets/cv/Jasvanth_CV_Full_Stack_AI_Developer.pdf" },
-        { role: "AI/ML Engineer", file: "/assets/cv/Jasvanth_CV_AI_ML_Engineer.pdf" },
-        { role: "Agentic AI Engineer", file: "/assets/cv/Jasvanth_CV_Agentic_AI_Engineer.pdf" },
-        { role: "FARM Stack Developer", file: "/assets/cv/Jasvanth_CV_FARM_Stack_Developer.pdf" },
-        { role: "Prompt Engineer", file: "/assets/cv/Jasvanth_CV_Prompt_Engineer.pdf" },
-        { role: "Data/Business Analyst", file: "/assets/cv/Jasvanth_CV_Data_Business_Analyst.pdf" },
+        // { role: "AI/ML Engineer", file: "/assets/cv/Jasvanth_CV_AI_ML_Engineer.pdf" },
+        // { role: "Agentic AI Engineer", file: "/assets/cv/Jasvanth_CV_Agentic_AI_Engineer.pdf" },
+        // { role: "FARM Stack Developer", file: "/assets/cv/Jasvanth_CV_FARM_Stack_Developer.pdf" },
+        // { role: "Data/Business Analyst", file: "/assets/cv/Jasvanth_CV_Data_Business_Analyst.pdf" },
     ],
 
     // ---------------------------------------------------------
@@ -203,17 +198,6 @@ const siteData = {
             ],
             description: "Participated in the TNFS National Technical Paper Presentation at VIT Chennai, presenting “SmartFire” and securing a place among the Top 23 finalists in the final round. Gained valuable recognition, teamwork experience and motivation to build impactful, technology-driven solutions for real-world challenges.",
             date: "Mar 2026"
-        },
-        {
-            title: "TNFS National Technical Paper Presentation - VIT Chennai",
-            location: "Onsite",
-            images: [
-                "https://media.licdn.com/dms/image/v2/D5622AQHSCuYIOz4ukw/feedshare-shrink_2048_1536/B56Z0lPf53JgAg-/0/1774446313302?e=1776297600&v=beta&t=4oH9qNM2i62w0Nkjc0tOBzPJw2X7bOFAkPZc8X0SDoc",
-                "https://media.licdn.com/dms/image/v2/D5622AQHN6udlAoMF8A/feedshare-shrink_1280/B56Z0lPf6bJMAM-/0/1774446313396?e=1776297600&v=beta&t=sDwF08guZYds0xaf5TE4uSB0M6HvCNkMeufMGFHn2sY",
-                "https://media.licdn.com/dms/image/v2/D5622AQHCG0xTaq1ZcA/feedshare-shrink_2048_1536/B56Z0lPgx0GYAg-/0/1774446316929?e=1776297600&v=beta&t=7BbEFsrj-QTiUWfkKYj5ufvHMrmFpPAXxP-AAPKT5Mo"
-            ],
-            description: "Participated in the TNFS National Technical Paper Presentation at VIT Chennai, presenting “SmartFire” and securing a place among the Top 23 finalists in the final round. Gained valuable recognition, teamwork experience and motivation to build impactful, technology-driven solutions for real-world challenges.",
-            date: "Mar 2026"
         }
     ],
 
@@ -236,9 +220,12 @@ const siteData = {
                 { name: "Generative AI", level: 85, iconUrl: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pytorch/pytorch-original.svg" },
                 { name: "LLMs", level: 75, iconUrl: "https://huggingface.co/front/assets/huggingface_logo-noborder.svg" },
                 { name: "Agentic AI", level: 80, iconUrl: "https://cdn0.iconfinder.com/data/icons/ai-agent/512/ai-intelligent-agent-robot-03-256.png" },
-                { name: "LangChain", level: 80, iconUrl: "https://api.iconify.design/simple-icons:langchain.svg?color=%2300F0FF" },
+                { name: "LangChain", level: 70, iconUrl: "https://api.iconify.design/simple-icons:langchain.svg?color=%2300F0FF" },
+                { name: "LangGraph", level: 70, iconUrl: "https://registry.npmmirror.com/@lobehub/icons-static-png/latest/files/dark/langgraph-color.png" },
                 { name: "CrewAI", level: 70, iconUrl: "https://avatars.githubusercontent.com/u/170677839?s=200&v=4" },
                 { name: "RAG Systems", level: 75, iconUrl: "https://api.iconify.design/mdi:database-search.svg?color=%2300F0FF" },
+                { name: "Prompt Engineering", level: 80, iconUrl: "https://static.vecteezy.com/system/resources/previews/022/841/114/original/chatgpt-logo-transparent-background-free-png.png"},
+                
             ]
         },
         {
@@ -259,6 +246,8 @@ const siteData = {
                 { name: "Tailwind CSS", level: 80, iconUrl: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" },
                 { name: "FastAPI", level: 80, iconUrl: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/fastapi/fastapi-original.svg" },
                 { name: "Django", level: 50, iconUrl: "https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/django-icon.png" },
+                { name: "Flask", level: 70, iconUrl: "https://www.seekpng.com/png/full/875-8753366_flask-png.png" },
+                { name: "Streamlit", level: 70, iconUrl: "https://miro.medium.com/v2/resize:fit:628/1*MpZGG5oPHVFlFDTu4b_1IA.png" },
                 { name: "MongoDB", level: 75, iconUrl: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" },
                 { name: "PostgreSQL", level: 65, iconUrl: "https://freepnglogo.com/images/all_img/postgresql-logo-e3e7.png" }
             ]
@@ -271,6 +260,8 @@ const siteData = {
                 { name: "VS Code", level: 90, iconUrl: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" },
                 { name: "Jupyter Notebook", level: 95, iconUrl: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original.svg" },
                 { name: "n8n", level: 40, iconUrl: "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/n8n.png" },
+                { name: "Excel & Sheets", level: 90, iconUrl: "https://www.pngall.com/wp-content/uploads/15/Excel-Logo-PNG-Images-HD.png" },
+                { name: "PPT & Slides", level: 90, iconUrl: "https://static.vecteezy.com/system/resources/thumbnails/022/037/341/small_2x/3d-file-ppt-folder-icon-illustration-png.png" }
             ]
         }
     ],
