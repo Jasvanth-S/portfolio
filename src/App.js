@@ -3,6 +3,7 @@ import { HashRouter as Router, Routes, Route, Navigate, useLocation } from 'reac
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import CursorTrail from './components/CursorTrail';
+import GeminiChat from './components/GeminiChat';
 
 // Section 1: WHO I'M
 import Hero from './sections/Hero';
@@ -95,6 +96,7 @@ function App() {
             <Route path="*" element={<Navigate to="/who-im" replace />} />
           </Routes>
         </main>
+        <GeminiChat />
         <Footer />
       </div>
     </Router>

@@ -43,7 +43,7 @@ const Research = () => {
     };
 
     return (
-        <section id="research" className="py-20 bg-gray-50 dark:bg-[#1E1E1E]/30">
+        <section id="research" className="py-20 bg-gray-50 dark:bg-transparent/20">
             <div className="container mx-auto px-6 relative">
                 <style>{`
                     .hide-scroll::-webkit-scrollbar { display: none; }
@@ -59,14 +59,14 @@ const Research = () => {
                         <>
                             <button 
                                 onClick={() => scroll('left')}
-                                className="absolute left-0 top-1/2 -translate-y-1/2 md:translate-x-4 lg:-translate-x-12 z-30 bg-white dark:bg-[#1E1E1E] text-primary p-3 xl:p-4 rounded-full shadow-lg border border-gray-200 dark:border-gray-800 hover:scale-110 hover:bg-primary hover:text-white transition-all hidden sm:flex"
+                                className="absolute left-0 top-1/2 -translate-y-1/2 md:translate-x-4 lg:-translate-x-12 z-30 bg-white dark:bg-secondary/80 backdrop-blur-md border-t border-white/5 text-primary p-3 xl:p-4 rounded-full shadow-lg border border-gray-200 dark:border-gray-800 hover:scale-110 hover:bg-primary hover:text-white transition-all hidden sm:flex"
                                 aria-label="Scroll Left"
                             >
                                 <svg className="w-5 h-5 xl:w-6 xl:h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M15 19l-7-7 7-7"/></svg>
                             </button>
                             <button 
                                 onClick={() => scroll('right')}
-                                className="absolute right-0 top-1/2 -translate-y-1/2 md:-translate-x-4 lg:translate-x-12 z-30 bg-white dark:bg-[#1E1E1E] text-primary p-3 xl:p-4 rounded-full shadow-lg border border-gray-200 dark:border-gray-800 hover:scale-110 hover:bg-primary hover:text-white transition-all hidden sm:flex"
+                                className="absolute right-0 top-1/2 -translate-y-1/2 md:-translate-x-4 lg:translate-x-12 z-30 bg-white dark:bg-secondary/80 backdrop-blur-md border-t border-white/5 text-primary p-3 xl:p-4 rounded-full shadow-lg border border-gray-200 dark:border-gray-800 hover:scale-110 hover:bg-primary hover:text-white transition-all hidden sm:flex"
                                 aria-label="Scroll Right"
                             >
                                 <svg className="w-5 h-5 xl:w-6 xl:h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M9 5l7 7-7 7"/></svg>
@@ -93,7 +93,7 @@ const Research = () => {
                                     }
                                 }}
                             >
-                                <div className="bg-white dark:bg-[#1E1E1E] rounded-xl p-8 shadow-lg border border-gray-200 dark:border-gray-800 hover:border-primary/50 transition-all duration-300 group h-full flex flex-col justify-between">
+                                <div className="bg-white dark:bg-secondary/80 backdrop-blur-md border-t border-white/5 rounded-xl p-8 shadow-lg border border-gray-200 dark:border-gray-800 hover:border-primary/50 transition-all duration-300 group h-full flex flex-col justify-between">
                                     <div>
                                         <div className="mb-4">
                                             <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-2 flex items-start gap-3 group-hover:text-primary transition-colors">
@@ -133,3 +133,4 @@ const Research = () => {
 };
 
 export default Research;
+

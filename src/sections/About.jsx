@@ -43,7 +43,7 @@ const About = () => {
     const [showCVMenu, setShowCVMenu] = useState(false);
 
     return (
-        <section id="about" className="py-20 bg-gray-50 dark:bg-[#1E1E1E]/30">
+        <section id="about" className="py-20 bg-gray-50 dark:bg-transparent/20">
             <div className="container mx-auto px-6">
                 <h2 className="text-3xl md:text-4xl font-bold text-center mb-4 text-gray-900 dark:text-white">
                     About <span className="text-primary">Me</span>
@@ -80,7 +80,7 @@ const About = () => {
                         </p>
 
                         {/* Currently block */}
-                        <div className="bg-white dark:bg-[#1E1E1E] border border-gray-200 dark:border-gray-800 rounded-xl p-4 mb-6 text-sm">
+                        <div className="bg-white dark:bg-secondary/80 backdrop-blur-md border-t border-white/5 border border-gray-200 dark:border-gray-800 rounded-xl p-4 mb-6 text-sm">
                             <p className="font-bold text-gray-800 dark:text-white mb-2 uppercase tracking-wider text-xs">Currently</p>
                             <div className="space-y-1 text-gray-600 dark:text-gray-400">
                                 <p>📚 Learning — System Design, Docker, Advanced RAG</p>
@@ -100,7 +100,7 @@ const About = () => {
                                 Get CV
                             </button>
                             {showCVMenu && (
-                                <div className="absolute top-full left-0 mt-2 w-64 bg-white dark:bg-[#1E1E1E] rounded-lg shadow-xl border border-gray-200 dark:border-gray-700 z-10">
+                                <div className="absolute top-full left-0 mt-2 w-64 bg-white dark:bg-secondary/80 backdrop-blur-md border-t border-white/5 rounded-lg shadow-xl border border-gray-200 dark:border-gray-700 z-10">
                                     {siteData.cvFiles.map((cv, index) => (
                                         <a
                                             key={index}
@@ -127,7 +127,7 @@ const About = () => {
                 {/* Three-column identity cards */}
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-5xl mx-auto">
                     {identityCards.map((card, i) => (
-                        <div key={i} className="bg-white dark:bg-[#1E1E1E] rounded-xl p-6 border border-gray-200 dark:border-gray-800 hover:border-primary/40 transition-all duration-300 hover:-translate-y-1 shadow-sm hover:shadow-md group">
+                        <div key={i} className="bg-white dark:bg-secondary/80 backdrop-blur-md border-t border-white/5 rounded-xl p-6 border border-gray-200 dark:border-gray-800 hover:border-primary/40 transition-all duration-300 hover:-translate-y-1 shadow-sm hover:shadow-md group">
                             <div className={`w-11 h-11 rounded-lg flex items-center justify-center mb-4 ${iconBgClasses[card.tagColor]} group-hover:scale-110 transition-transform`}>
                                 {card.icon}
                             </div>
@@ -147,3 +147,4 @@ const About = () => {
 };
 
 export default About;
+

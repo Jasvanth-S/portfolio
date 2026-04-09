@@ -7,19 +7,21 @@ module.exports = {
     theme: {
         extend: {
             colors: {
-                primary: "#00F0FF", // Neon Blue
-                secondary: "#1E1E1E", // Gunmetal Grey (for cards in dark mode)
+                primary: "#00F0FF", // Neon Cyan
+                secondary: "#112240", // Premium Navy Card Base (was Gunmetal)
                 background: {
-                    DEFAULT: "#050505", // Dark mode background
-                    light: "#F5F5F5", // Light mode background
+                    DEFAULT: "#0A192F", // Deep Space Navy (was #050505)
+                    light: "#F8FAFC", // Light mode background
                 },
                 text: {
-                    DEFAULT: "#E0E0E0", // Dark mode text
-                    light: "#1a1a1a", // Light mode text
+                    DEFAULT: "#CCD6F6", // Premium Soft White/Blue for Dark mode text
+                    light: "#0F172A", // Light mode text
                 },
             },
             fontFamily: {
-                // Add fonts if needed, e.g. Inter or Roboto
+                display: ['Sora', 'sans-serif'],
+                body: ['Inter', 'sans-serif'],
+                mono: ['"JetBrains Mono"', 'monospace'],
             }
         },
     },

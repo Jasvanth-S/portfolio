@@ -31,54 +31,43 @@ const Hero = () => {
         <section id="hero" className="min-h-screen flex items-center justify-center bg-transparent text-gray-900 dark:text-[#E0E0E0] px-6 pt-20 relative overflow-hidden">
             <div className="text-center max-w-4xl mx-auto relative z-10" style={{ transform: `translateY(${scrollY * 0.08}px)` }}>
 
-                {/* Availability Badge */}
-                <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-emerald-400/40 bg-emerald-400/10 text-emerald-600 dark:text-emerald-400 text-sm font-semibold mb-6 backdrop-blur-sm">
-                    <span className="relative flex h-2.5 w-2.5">
-                        <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
-                        <span className="relative inline-flex rounded-full h-2.5 w-2.5 bg-emerald-500"></span>
-                    </span>
-                    Available for opportunities
+                {/* Main Heading with Gradient and Slight Letter Spacing (Layer 1: Display) */}
+                <div className="mb-8 hover:scale-[1.01] transition-transform duration-500">
+                    <h2 className="text-xl sm:text-2xl md:text-3xl text-gray-500 dark:text-[#8892b0] font-mono tracking-widest uppercase font-medium mb-3">
+                        Hello, I'm
+                    </h2>
+                    <h1 className="font-display text-5xl md:text-7xl lg:text-8xl font-extrabold tracking-wide text-transparent bg-clip-text bg-gradient-to-r from-blue-900 via-blue-600 to-sky-400 dark:from-white dark:via-[#CCD6F6] dark:to-[#00F0FF]">
+                        {siteData.name}
+                    </h1>
                 </div>
 
-                {/* Intro */}
-                <p className="text-primary text-xl md:text-2xl font-medium mb-4 tracking-wide">Hello, I'm</p>
-                <h1 className="text-5xl md:text-7xl font-extrabold mb-6 tracking-tight text-gray-900 dark:text-white hover:text-primary transition-colors duration-300">
-                    {siteData.name}
-                </h1>
-
-
-                {/* Role + Description */}
-                <div className="min-h-[200px] md:min-h-[180px] mb-10 flex flex-col items-center justify-center">
-                    <div className={`transition-opacity duration-500 ${fade ? 'opacity-100' : 'opacity-0'}`}>
-                        <h2 className="text-2xl md:text-3xl font-bold text-gray-800 dark:text-white mb-4">
-                            <TypeAnimation
-                                key={currentRoleIndex}
-                                sequence={[currentRole.title]}
-                                wrapper="span"
-                                speed={50}
-                                cursor={false}
-                            />
-                        </h2>
-                        <p className="text-base md:text-lg font-normal text-gray-600 dark:text-gray-400 leading-relaxed max-w-2xl mx-auto">
-                            {currentRole.description}
-                        </p>
+                {/* Role / Description (Layer 2 & 3: Display & Mono) */}
+                <div className="min-h-[180px] md:min-h-[160px] mb-12 flex flex-col items-center justify-center relative">
+                    <div className={`transition-all duration-700 ease-in-out absolute inset-0 flex flex-col items-center justify-center ${fade ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'}`}>
+                        <div className="h-10 md:h-12 flex items-center justify-center mb-4">
+                            <h2 className="text-2xl md:text-3xl lg:text-4xl font-display font-semibold text-blue-600 dark:text-[#64FFDA] tracking-wider">
+                                <TypeAnimation
+                                    key={currentRole.title}
+                                    sequence={[currentRole.title]}
+                                    speed={50}
+                                    wrapper="span"
+                                    cursor={true}
+                                    repeat={0}
+                                />
+                            </h2>
+                        </div>
+                        
+                        {/* Elegant Professional Highlights Block */}
+                        <div className="max-w-2xl bg-white/60 dark:bg-[#112240]/40 backdrop-blur-md border border-gray-200/50 dark:border-[#64FFDA]/10 px-6 py-4 rounded-2xl shadow-lg">
+                            <p className="font-body text-sm sm:text-base md:text-lg text-gray-700 dark:text-[#CCD6F6] leading-relaxed">
+                                {currentRole.description}
+                            </p>
+                        </div>
                     </div>
                 </div>
 
-                {/* Role indicator dots */}
-                <div className="flex justify-center gap-2 mb-10">
-                    {siteData.roles.map((_, i) => (
-                        <button
-                            key={i}
-                            onClick={() => { setFade(false); setTimeout(() => { setCurrentRoleIndex(i); setFade(true); }, 300); }}
-                            className={`h-1.5 rounded-full transition-all duration-300 ${i === currentRoleIndex ? 'w-6 bg-primary' : 'w-2 bg-gray-300 dark:bg-gray-700 hover:bg-primary/50'}`}
-                            aria-label={`Switch to role ${i + 1}`}
-                        />
-                    ))}
-                </div>
-
                 {/* CTA Buttons */}
-                <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
+                <div className="flex flex-col sm:flex-row items-center justify-center gap-5">
                     <Link
                         to="/creations"
                         className="px-8 py-3.5 rounded-full bg-primary text-white dark:text-[#050505] font-bold text-base transition-all duration-300 transform hover:scale-105 hover:shadow-lg hover:shadow-primary/30 cursor-pointer"

@@ -4,7 +4,7 @@ import siteData from '../config/siteData';
 
 const Education = () => {
     return (
-        <section id="education" className="py-20 bg-gray-50 dark:bg-[#1E1E1E]/30">
+        <section id="education" className="py-20 bg-gray-50 dark:bg-transparent/20">
             <div className="container mx-auto px-6">
                 <h2 className="text-3xl md:text-4xl font-bold text-center mb-16 text-gray-900 dark:text-white">
                     <span className="text-primary">Education</span>
@@ -26,7 +26,7 @@ const Education = () => {
 
                                 {/* Content Card */}
                                 <div className={`ml-8 md:ml-0 ${index % 2 === 0 ? 'md:mr-8' : 'md:ml-8'}`}>
-                                    <div className="bg-white dark:bg-[#1E1E1E] rounded-xl p-6 shadow-lg border border-gray-200 dark:border-gray-800 hover:border-primary/50 transition-all duration-300 transform hover:-translate-y-1">
+                                    <div className="bg-white dark:bg-secondary/80 backdrop-blur-md border-t border-white/5 rounded-xl p-6 shadow-lg border border-gray-200 dark:border-gray-800 hover:border-primary/50 transition-all duration-300 transform hover:-translate-y-1">
                                         {/* Header */}
                                         <div className="mb-4">
                                             <h3 className="text-xl md:text-2xl font-bold text-gray-900 dark:text-white mb-2 flex items-center gap-2">
@@ -73,3 +73,4 @@ const Education = () => {
 };
 
 export default Education;
+

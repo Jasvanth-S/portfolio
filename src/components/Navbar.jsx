@@ -30,12 +30,12 @@ const Navbar = () => {
     ];
 
     return (
-        <nav className={`fixed w-full z-50 transition-all duration-300 ${scrolled ? 'bg-white/70 dark:bg-[#0A0A0A]/70 backdrop-blur-2xl backdrop-saturate-[180%] border-b border-black/5 dark:border-white/5 shadow-sm py-4' : 'bg-transparent py-5'}`}>
+        <nav className={`fixed w-full z-50 transition-all duration-300 ${scrolled ? 'bg-white/70 dark:bg-[#0A192F]/70 backdrop-blur-2xl backdrop-saturate-[180%] border-b border-black/5 dark:border-white/5 shadow-sm py-4' : 'bg-transparent py-5'}`}>
             <div className="container mx-auto px-6 flex justify-between items-center">
                 {/* Logo */}
                 <Link to="/who-im" className="cursor-pointer flex flex-col items-end">
                     <span className="text-2xl font-bold text-primary">{siteData.name}</span>
-                    <span className="text-xs font-medium text-gray-600 dark:text-gray-400 -mt-1">Portfolio</span>
+                    <span className="text-xs font-medium text-gray-600 dark:text-gray-400 -mt-1">AI Engineer</span>
                 </Link>
 
                 {/* Desktop Menu */}

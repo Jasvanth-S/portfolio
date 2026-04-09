@@ -33,7 +33,7 @@ const CertificationCard = ({ cert }) => {
 
     return (
         <div
-            className="bg-gray-50 dark:bg-[#1E1E1E] rounded-xl overflow-hidden shadow-lg border border-gray-200 dark:border-gray-800 hover:border-primary/50 transition-all duration-300 transform hover:-translate-y-2 group flex flex-col justify-between"
+            className="bg-gray-50 dark:bg-secondary/80 backdrop-blur-md border-t border-white/5 rounded-xl overflow-hidden shadow-lg border border-gray-200 dark:border-gray-800 hover:border-primary/50 transition-all duration-300 transform hover:-translate-y-2 group flex flex-col justify-between"
             onMouseEnter={() => setIsHovered(true)}
             onMouseLeave={() => {
                 setIsHovered(false);
@@ -84,7 +84,7 @@ const CertificationCard = ({ cert }) => {
                 </div>
             )}
 
-            <div className="p-6 flex-grow flex flex-col justify-between z-20 bg-gray-50 dark:bg-[#1E1E1E]">
+            <div className="p-6 flex-grow flex flex-col justify-between z-20 bg-gray-50 dark:bg-secondary/80 backdrop-blur-md border-t border-white/5">
                 <div>
                     <div className="mb-4 flex items-start gap-4">
                         <div className="p-3 bg-primary/10 dark:bg-primary/20 rounded-lg flex-shrink-0 group-hover:scale-110 transition-transform duration-300">
@@ -163,7 +163,7 @@ const Certifications = () => {
     };
 
     return (
-        <section id="certifications" className="py-20 bg-white dark:bg-[#050505]">
+        <section id="certifications" className="py-20 bg-white dark:bg-transparent">
             <div className="container mx-auto px-6 relative">
                 <style>{`
                     .hide-scroll::-webkit-scrollbar { display: none; }
@@ -179,14 +179,14 @@ const Certifications = () => {
                         <>
                             <button 
                                 onClick={() => scroll('left')}
-                                className="absolute left-0 top-1/2 -translate-y-1/2 md:translate-x-4 lg:-translate-x-12 z-30 bg-white dark:bg-[#1E1E1E] text-primary p-3 xl:p-4 rounded-full shadow-lg border border-gray-200 dark:border-gray-800 hover:scale-110 hover:bg-primary hover:text-white transition-all hidden sm:flex"
+                                className="absolute left-0 top-1/2 -translate-y-1/2 md:translate-x-4 lg:-translate-x-12 z-30 bg-white dark:bg-secondary/80 backdrop-blur-md border-t border-white/5 text-primary p-3 xl:p-4 rounded-full shadow-lg border border-gray-200 dark:border-gray-800 hover:scale-110 hover:bg-primary hover:text-white transition-all hidden sm:flex"
                                 aria-label="Scroll Left"
                             >
                                 <svg className="w-5 h-5 xl:w-6 xl:h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M15 19l-7-7 7-7"/></svg>
                             </button>
                             <button 
                                 onClick={() => scroll('right')}
-                                className="absolute right-0 top-1/2 -translate-y-1/2 md:-translate-x-4 lg:translate-x-12 z-30 bg-white dark:bg-[#1E1E1E] text-primary p-3 xl:p-4 rounded-full shadow-lg border border-gray-200 dark:border-gray-800 hover:scale-110 hover:bg-primary hover:text-white transition-all hidden sm:flex"
+                                className="absolute right-0 top-1/2 -translate-y-1/2 md:-translate-x-4 lg:translate-x-12 z-30 bg-white dark:bg-secondary/80 backdrop-blur-md border-t border-white/5 text-primary p-3 xl:p-4 rounded-full shadow-lg border border-gray-200 dark:border-gray-800 hover:scale-110 hover:bg-primary hover:text-white transition-all hidden sm:flex"
                                 aria-label="Scroll Right"
                             >
                                 <svg className="w-5 h-5 xl:w-6 xl:h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M9 5l7 7-7 7"/></svg>
@@ -225,3 +225,4 @@ const Certifications = () => {
 };
 
 export default Certifications;
+

@@ -5,7 +5,7 @@ import siteData from '../config/siteData';
 const Footer = () => {
     const year = new Date().getFullYear();
     return (
-        <footer className="bg-gray-100 dark:bg-[#050505] py-10 border-t border-gray-300 dark:border-gray-900">
+        <footer className="bg-gray-100 dark:bg-transparent py-10 border-t border-gray-300 dark:border-gray-900">
             <div className="container mx-auto px-6">
                 <div className="flex flex-col md:flex-row items-center justify-between gap-4 mb-6">
                     <div className="text-center md:text-left">
@@ -39,3 +39,4 @@ const Footer = () => {
 };
 
 export default Footer;
+

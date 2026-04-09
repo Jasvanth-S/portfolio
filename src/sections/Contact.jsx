@@ -49,7 +49,7 @@ const colorClasses = {
 
 const Contact = () => {
     return (
-        <section id="contact" className="py-20 bg-white dark:bg-[#050505]">
+        <section id="contact" className="py-20 bg-white dark:bg-transparent">
             <div className="container mx-auto px-6 max-w-5xl">
                 <h2 className="text-3xl md:text-4xl font-bold text-center mb-4 text-gray-900 dark:text-white">
                     Get In <span className="text-primary">Touch</span>
@@ -59,15 +59,26 @@ const Contact = () => {
                     Whether you're building a product team, a research lab, or a client project — let's talk about what we can build together.
                 </p>
 
-                <p className="text-center text-sm font-semibold text-emerald-600 dark:text-emerald-400 mb-12 flex items-center justify-center gap-2">
-                    <span className="w-2 h-2 rounded-full bg-emerald-500 inline-block animate-pulse" />
-                    I respond within 24 hours
-                </p>
+                <div className="flex flex-col items-center justify-center gap-4 mb-12">
+                    {/* Availability Badge */}
+                    <div className="inline-flex flex-row items-center gap-2 px-4 py-1.5 rounded-full border border-emerald-400/40 bg-emerald-400/10 text-emerald-600 dark:text-emerald-400 text-sm font-semibold backdrop-blur-sm mx-auto">
+                        <span className="relative flex h-2.5 w-2.5">
+                            <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
+                            <span className="relative inline-flex rounded-full h-2.5 w-2.5 bg-emerald-500"></span>
+                        </span>
+                        <span>Available for opportunities</span>
+                    </div>
+
+                    <p className="text-sm font-semibold text-emerald-600 dark:text-emerald-400 flex items-center justify-center gap-2 m-0 mt-2">
+                        <span className="w-2 h-2 rounded-full bg-emerald-500 inline-block animate-pulse" />
+                        <span>I respond within 24 hours</span>
+                    </p>
+                </div>
 
                 {/* Three audience cards */}
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-14">
                     {audienceCards.map((card, i) => (
-                        <div key={i} className={`bg-gray-50 dark:bg-[#1E1E1E] rounded-xl p-6 border border-gray-200 dark:border-gray-800 ${colorClasses[card.color].border} transition-all duration-300 hover:-translate-y-1 shadow-sm hover:shadow-lg flex flex-col justify-between group`}>
+                        <div key={i} className={`bg-gray-50 dark:bg-secondary/80 backdrop-blur-md border-t border-white/5 rounded-xl p-6 border border-gray-200 dark:border-gray-800 ${colorClasses[card.color].border} transition-all duration-300 hover:-translate-y-1 shadow-sm hover:shadow-lg flex flex-col justify-between group`}>
                             <div>
                                 <div className={`w-11 h-11 rounded-lg flex items-center justify-center mb-4 ${colorClasses[card.color].icon} group-hover:scale-110 transition-transform`}>
                                     {card.icon}
@@ -81,7 +92,7 @@ const Contact = () => {
                 </div>
 
                 {/* Social links row */}
-                <div className="bg-gray-100 dark:bg-[#1E1E1E] rounded-2xl p-8 border border-gray-200 dark:border-gray-800 text-center">
+                <div className="bg-gray-100 dark:bg-secondary/80 backdrop-blur-md border-t border-white/5 rounded-2xl p-8 border border-gray-200 dark:border-gray-800 text-center">
                     <p className="text-sm font-semibold text-gray-500 dark:text-gray-400 uppercase tracking-widest mb-6">Find me on</p>
                     <div className="flex flex-wrap justify-center gap-6">
                         {siteData.socials.map((social, index) => (
@@ -113,3 +124,4 @@ const Contact = () => {
 };
 
 export default Contact;
+

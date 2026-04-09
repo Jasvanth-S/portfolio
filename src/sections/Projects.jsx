@@ -53,7 +53,7 @@ const SignatureProjects = () => {
     };
 
     return (
-        <section id="projects" className="py-20 bg-gray-50 dark:bg-[#1E1E1E]/30">
+        <section id="projects" className="py-20 bg-gray-50 dark:bg-transparent/20">
             <div className="container mx-auto px-6 relative">
                 <style>{`
                     .hide-scroll::-webkit-scrollbar { display: none; }
@@ -69,14 +69,14 @@ const SignatureProjects = () => {
                         <>
                             <button 
                                 onClick={() => scroll('left')}
-                                className="absolute left-0 top-1/2 -translate-y-1/2 md:translate-x-4 lg:-translate-x-12 z-30 bg-white dark:bg-[#1E1E1E] text-primary p-3 xl:p-4 rounded-full shadow-lg border border-gray-200 dark:border-gray-800 hover:scale-110 hover:bg-primary hover:text-white transition-all hidden sm:flex"
+                                className="absolute left-0 top-1/2 -translate-y-1/2 md:translate-x-4 lg:-translate-x-12 z-30 bg-white dark:bg-secondary/80 backdrop-blur-md border-t border-white/5 text-primary p-3 xl:p-4 rounded-full shadow-lg border border-gray-200 dark:border-gray-800 hover:scale-110 hover:bg-primary hover:text-white transition-all hidden sm:flex"
                                 aria-label="Scroll Left"
                             >
                                 <svg className="w-5 h-5 xl:w-6 xl:h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M15 19l-7-7 7-7"/></svg>
                             </button>
                             <button 
                                 onClick={() => scroll('right')}
-                                className="absolute right-0 top-1/2 -translate-y-1/2 md:-translate-x-4 lg:translate-x-12 z-30 bg-white dark:bg-[#1E1E1E] text-primary p-3 xl:p-4 rounded-full shadow-lg border border-gray-200 dark:border-gray-800 hover:scale-110 hover:bg-primary hover:text-white transition-all hidden sm:flex"
+                                className="absolute right-0 top-1/2 -translate-y-1/2 md:-translate-x-4 lg:translate-x-12 z-30 bg-white dark:bg-secondary/80 backdrop-blur-md border-t border-white/5 text-primary p-3 xl:p-4 rounded-full shadow-lg border border-gray-200 dark:border-gray-800 hover:scale-110 hover:bg-primary hover:text-white transition-all hidden sm:flex"
                                 aria-label="Scroll Right"
                             >
                                 <svg className="w-5 h-5 xl:w-6 xl:h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M9 5l7 7-7 7"/></svg>
@@ -103,7 +103,7 @@ const SignatureProjects = () => {
                                     }
                                 }}
                             >
-                                <div className="bg-white dark:bg-[#1E1E1E] rounded-xl overflow-hidden shadow-lg border border-gray-200 dark:border-gray-800 hover:border-primary/50 transition-all duration-300 group flex flex-col h-full">
+                                <div className="bg-white dark:bg-secondary/80 backdrop-blur-md border-t border-white/5 rounded-xl overflow-hidden shadow-lg border border-gray-200 dark:border-gray-800 hover:border-primary/50 transition-all duration-300 group flex flex-col h-full">
                                     {/* Project Image */}
                                     <div className="relative h-56 overflow-hidden">
                                         <img
@@ -117,7 +117,7 @@ const SignatureProjects = () => {
                                                     href={project.github}
                                                     target="_blank"
                                                     rel="noopener noreferrer"
-                                                    className="p-3 bg-gray-800 dark:bg-[#1E1E1E] rounded-full text-white hover:text-primary hover:bg-white dark:hover:bg-white transition-colors"
+                                                    className="p-3 bg-gray-800 dark:bg-secondary/80 backdrop-blur-md border-t border-white/5 rounded-full text-white hover:text-primary hover:bg-white dark:hover:bg-white transition-colors"
                                                 >
                                                     <FaGithub size={20} />
                                                 </a>
@@ -127,7 +127,7 @@ const SignatureProjects = () => {
                                                     href={project.live}
                                                     target="_blank"
                                                     rel="noopener noreferrer"
-                                                    className="p-3 bg-gray-800 dark:bg-[#1E1E1E] rounded-full text-white hover:text-primary hover:bg-white dark:hover:bg-white transition-colors"
+                                                    className="p-3 bg-gray-800 dark:bg-secondary/80 backdrop-blur-md border-t border-white/5 rounded-full text-white hover:text-primary hover:bg-white dark:hover:bg-white transition-colors"
                                                 >
                                                     <FaExternalLinkAlt size={20} />
                                                 </a>
@@ -159,7 +159,7 @@ const SignatureProjects = () => {
                                             {project.technologies.map((tag, i) => (
                                                 <span
                                                     key={i}
-                                                    className="px-3 py-1 text-xs font-medium rounded-full bg-gray-100 dark:bg-[#050505] text-gray-700 dark:text-gray-300 border border-gray-300 dark:border-gray-800"
+                                                    className="px-3 py-1 text-xs font-medium rounded-full bg-gray-100 dark:bg-transparent text-gray-700 dark:text-gray-300 border border-gray-300 dark:border-gray-800"
                                                 >
                                                     {tag}
                                                 </span>
@@ -177,3 +177,4 @@ const SignatureProjects = () => {
 };
 
 export default SignatureProjects;
+

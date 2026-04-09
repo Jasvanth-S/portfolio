@@ -19,7 +19,7 @@ const roadmap = [
 
 const Skills = () => {
     return (
-        <section id="skills" className="py-20 bg-gray-50 dark:bg-[#1E1E1E]/30 hover-trigger">
+        <section id="skills" className="py-20 bg-gray-50 dark:bg-transparent/20 hover-trigger">
             <style>{`
                 .group:hover .animate-bar-fill {
                     animation: fillBar 1.2s cubic-bezier(0.25, 1, 0.5, 1) forwards;
@@ -51,7 +51,7 @@ const Skills = () => {
                                     return (
                                         <div
                                             key={skillIndex}
-                                            className="group p-4 bg-white dark:bg-[#1E1E1E] rounded-xl hover:bg-gray-100 dark:hover:bg-[#1E1E1E]/80 border border-gray-200 dark:border-gray-800 hover:border-primary/50 transition-all duration-300 flex flex-col items-center justify-center gap-2 transform hover:-translate-y-2 shadow-sm hover:shadow-md"
+                                            className="group p-4 bg-white dark:bg-secondary/80 backdrop-blur-md border-t border-white/5 rounded-xl hover:bg-gray-100 dark:hover:bg-[#1E1E1E]/80 border border-gray-200 dark:border-gray-800 hover:border-primary/50 transition-all duration-300 flex flex-col items-center justify-center gap-2 transform hover:-translate-y-2 shadow-sm hover:shadow-md"
                                         >
                                             <div className="w-12 h-12 flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
                                                 <img
@@ -100,7 +100,7 @@ const Skills = () => {
 
                 {/* Learning Roadmap */}
                 <div className="max-w-6xl mx-auto mt-16">
-                    <div className="bg-white dark:bg-[#1E1E1E] rounded-2xl border border-gray-200 dark:border-gray-800 p-8">
+                    <div className="bg-white dark:bg-secondary/80 backdrop-blur-md border-t border-white/5 rounded-2xl border border-gray-200 dark:border-gray-800 p-8">
                         <div className="flex items-center gap-3 mb-6">
                             <span className="text-2xl">🚀</span>
                             <div>
@@ -110,7 +110,7 @@ const Skills = () => {
                         </div>
                         <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
                             {roadmap.map((item, i) => (
-                                <div key={i} className="bg-gray-50 dark:bg-[#050505]/50 rounded-xl p-4 border border-dashed border-gray-300 dark:border-gray-700">
+                                <div key={i} className="bg-gray-50 dark:bg-transparent rounded-xl p-4 border border-dashed border-gray-300 dark:border-gray-700">
                                     <p className="font-semibold text-gray-800 dark:text-gray-200 text-sm mb-1">{item.name}</p>
                                     <p className="text-xs text-gray-500 dark:text-gray-500">{item.note}</p>
                                 </div>
@@ -124,3 +124,4 @@ const Skills = () => {
 };
 
 export default Skills;
+

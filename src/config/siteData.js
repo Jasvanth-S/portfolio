@@ -5,23 +5,23 @@ const siteData = {
     roles: [
         {
             title: "Full-Stack AI Developer",
-            description: "Engineering intelligent full-stack applications that seamlessly integrate frontend interfaces with AI-driven backends. Specialized in deploying LLMs, RAG systems, agentic AI pipelines, and analytics engines into scalable web platforms."
+            description: "Architecting hyper-intelligent platforms by fusing scalable frontend architectures with state-of-the-art Generative AI and deeply integrated RAG workflows."
         },
         {
             title: "AI & ML Engineer",
-            description: "Building end-to-end machine learning pipelines from data preprocessing to model deployment. Proficient in supervised, unsupervised, and reinforcement learning techniques using state-of-the-art frameworks."
+            description: "Forging the future of decision intelligence. I design, train, and deploy robust machine learning models and predictive pipelines to solve real-world complexities."
         },
         {
             title: "Agentic AI Developer",
-            description: "Creating intelligent autonomous agents with modern orchestration tools that can plan, reason, and execute complex multi-step tasks. Specialized in tool-calling and memory systems."
+            description: "Pioneering autonomous intelligence. I engineer dynamic agentic systems equipped with sophisticated multi-step reasoning, persistent memory, and advanced tool-calling."
         },
         {
-            title: "FARM-Stack Developer",
-            description: "Crafting modern, high-performance web applications using blazing-fast APIs, dynamic UIs, and flexible data storage architectures to deliver scalable full-stack solutions."
+            title: "FARM-Stack Architect",
+            description: "Crafting lightning-fast, production-grade web experiences. I build seamless software ecosystems driven by high-performance APIs and stunning visual interfaces."
         },
         {
-            title: "Data & Business Analyst",
-            description: "Converting raw data into strategic insights through advanced analytics, statistical modeling, and compelling visualizations to drive evidence-based business decisions."
+            title: "Data Intelligence Analyst",
+            description: "Transforming raw datasets into actionable strategic foresight. Unleashing the power of advanced analytics and immersive visual dashboards to drive corporate strategy."
         }
     ],
     bio: "Passionate AI & Data Science Engineer focused on building intelligent systems, scalable products and real-world AI innovation. I specialize in Generative AI, RAG pipelines and Agentic workflows, combining advanced analytics with modern full-stack development. My mission is to bridge the gap between complex machine learning models and intuitive user experiences.",
