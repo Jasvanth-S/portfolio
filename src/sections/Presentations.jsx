@@ -73,14 +73,14 @@ const Presentations = () => {
                         <>
                             <button 
                                 onClick={() => scroll('left')}
-                                className="absolute left-0 top-1/2 -translate-y-1/2 md:translate-x-4 lg:-translate-x-12 z-30 bg-white dark:bg-secondary/80 backdrop-blur-md border-t border-white/5 text-primary p-3 xl:p-4 rounded-full shadow-lg border border-gray-200 dark:border-gray-800 hover:scale-110 hover:bg-primary hover:text-white transition-all hidden sm:flex"
+                                className="absolute left-0 top-1/2 -translate-y-1/2 md:translate-x-4 lg:-translate-x-12 z-30 bg-white/70 dark:bg-secondary/70 backdrop-blur-xl shadow-[0_8px_32px_0_rgba(31,38,135,0.07)] border-t border-white/5 text-primary p-3 xl:p-4 rounded-full shadow-lg border border-gray-200 dark:border-gray-800 hover:scale-110 hover:bg-primary hover:text-white transition-all hidden sm:flex"
                                 aria-label="Scroll Left"
                             >
                                 <svg className="w-5 h-5 xl:w-6 xl:h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M15 19l-7-7 7-7"/></svg>
                             </button>
                             <button 
                                 onClick={() => scroll('right')}
-                                className="absolute right-0 top-1/2 -translate-y-1/2 md:-translate-x-4 lg:translate-x-12 z-30 bg-white dark:bg-secondary/80 backdrop-blur-md border-t border-white/5 text-primary p-3 xl:p-4 rounded-full shadow-lg border border-gray-200 dark:border-gray-800 hover:scale-110 hover:bg-primary hover:text-white transition-all hidden sm:flex"
+                                className="absolute right-0 top-1/2 -translate-y-1/2 md:-translate-x-4 lg:translate-x-12 z-30 bg-white/70 dark:bg-secondary/70 backdrop-blur-xl shadow-[0_8px_32px_0_rgba(31,38,135,0.07)] border-t border-white/5 text-primary p-3 xl:p-4 rounded-full shadow-lg border border-gray-200 dark:border-gray-800 hover:scale-110 hover:bg-primary hover:text-white transition-all hidden sm:flex"
                                 aria-label="Scroll Right"
                             >
                                 <svg className="w-5 h-5 xl:w-6 xl:h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M9 5l7 7-7 7"/></svg>
@@ -107,7 +107,7 @@ const Presentations = () => {
                                     }
                                 }}
                             >
-                                <div className="bg-gray-50 dark:bg-secondary/80 backdrop-blur-md border-t border-white/5 rounded-xl overflow-hidden shadow-lg border border-gray-200 dark:border-gray-800 hover:border-primary/50 transition-all duration-300 group flex flex-col h-full">
+                                <div className="bg-white/60 dark:bg-secondary/70 backdrop-blur-xl shadow-[0_8px_32px_0_rgba(31,38,135,0.07)] border-t border-white/5 rounded-xl overflow-hidden shadow-lg border border-gray-200 dark:border-gray-800 hover:border-primary/50 transition-all duration-300 group flex flex-col h-full">
                                     <div className="relative h-56 overflow-hidden">
                                         {pres.link && pres.link.toLowerCase().endsWith('.pdf') ? (
                                             <PdfScrubber pdfUrl={pres.link} defaultImage={getMediaPreviewUrl(pres.image)} />
@@ -125,7 +125,7 @@ const Presentations = () => {
                                         
                                         {((pres.link && pres.link !== '#') || (pres.image && pres.image.includes('drive.google.com'))) && (!pres.link || !pres.link.toLowerCase().endsWith('.pdf')) && (
                                             <div className="absolute inset-0 bg-black/0 group-hover:bg-black/30 transition-colors z-20 flex items-center justify-center">
-                                                <a href={pres.link !== '#' ? pres.link : pres.image} target="_blank" rel="noopener noreferrer" className="opacity-0 group-hover:opacity-100 bg-white dark:bg-secondary/80 backdrop-blur-md border-t border-white/5 text-primary rounded-full p-4 shadow-xl transition-all duration-300 transform scale-50 group-hover:scale-100">
+                                                <a href={pres.link !== '#' ? pres.link : pres.image} target="_blank" rel="noopener noreferrer" className="opacity-0 group-hover:opacity-100 bg-white/70 dark:bg-secondary/70 backdrop-blur-xl shadow-[0_8px_32px_0_rgba(31,38,135,0.07)] border-t border-white/5 text-primary rounded-full p-4 shadow-xl transition-all duration-300 transform scale-50 group-hover:scale-100">
                                                     <FaExternalLinkAlt size={20} />
                                                 </a>
                                             </div>

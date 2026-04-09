@@ -78,7 +78,7 @@ const Contact = () => {
                 {/* Three audience cards */}
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-14">
                     {audienceCards.map((card, i) => (
-                        <div key={i} className={`bg-gray-50 dark:bg-secondary/80 backdrop-blur-md border-t border-white/5 rounded-xl p-6 border border-gray-200 dark:border-gray-800 ${colorClasses[card.color].border} transition-all duration-300 hover:-translate-y-1 shadow-sm hover:shadow-lg flex flex-col justify-between group`}>
+                        <div key={i} className={`bg-white/60 dark:bg-secondary/70 backdrop-blur-xl shadow-[0_8px_32px_0_rgba(31,38,135,0.07)] border-t border-white/5 rounded-xl p-6 border border-gray-200 dark:border-gray-800 ${colorClasses[card.color].border} transition-all duration-300 hover:-translate-y-1 shadow-sm hover:shadow-lg flex flex-col justify-between group`}>
                             <div>
                                 <div className={`w-11 h-11 rounded-lg flex items-center justify-center mb-4 ${colorClasses[card.color].icon} group-hover:scale-110 transition-transform`}>
                                     {card.icon}
@@ -92,7 +92,7 @@ const Contact = () => {
                 </div>
 
                 {/* Social links row */}
-                <div className="bg-gray-100 dark:bg-secondary/80 backdrop-blur-md border-t border-white/5 rounded-2xl p-8 border border-gray-200 dark:border-gray-800 text-center">
+                <div className="bg-white/50 dark:bg-secondary/70 backdrop-blur-xl shadow-[0_8px_32px_0_rgba(31,38,135,0.07)] border-t border-white/5 rounded-2xl p-8 border border-gray-200 dark:border-gray-800 text-center">
                     <p className="text-sm font-semibold text-gray-500 dark:text-gray-400 uppercase tracking-widest mb-6">Find me on</p>
                     <div className="flex flex-wrap justify-center gap-6">
                         {siteData.socials.map((social, index) => (

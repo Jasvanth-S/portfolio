@@ -51,7 +51,7 @@ const Skills = () => {
                                     return (
                                         <div
                                             key={skillIndex}
-                                            className="group p-4 bg-white dark:bg-secondary/80 backdrop-blur-md border-t border-white/5 rounded-xl hover:bg-gray-100 dark:hover:bg-[#1E1E1E]/80 border border-gray-200 dark:border-gray-800 hover:border-primary/50 transition-all duration-300 flex flex-col items-center justify-center gap-2 transform hover:-translate-y-2 shadow-sm hover:shadow-md"
+                                            className="group p-4 bg-white/70 dark:bg-secondary/70 backdrop-blur-xl shadow-[0_8px_32px_0_rgba(31,38,135,0.07)] border-t border-white/5 rounded-xl hover:bg-gray-100 dark:hover:bg-[#1E1E1E]/80 border border-gray-200 dark:border-gray-800 hover:border-primary/50 transition-all duration-300 flex flex-col items-center justify-center gap-2 transform hover:-translate-y-2 shadow-sm hover:shadow-md"
                                         >
                                             <div className="w-12 h-12 flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
                                                 <img
@@ -100,7 +100,7 @@ const Skills = () => {
 
                 {/* Learning Roadmap */}
                 <div className="max-w-6xl mx-auto mt-16">
-                    <div className="bg-white dark:bg-secondary/80 backdrop-blur-md border-t border-white/5 rounded-2xl border border-gray-200 dark:border-gray-800 p-8">
+                    <div className="bg-white/70 dark:bg-secondary/70 backdrop-blur-xl shadow-[0_8px_32px_0_rgba(31,38,135,0.07)] border-t border-white/5 rounded-2xl border border-gray-200 dark:border-gray-800 p-8">
                         <div className="flex items-center gap-3 mb-6">
                             <span className="text-2xl">🚀</span>
                             <div>

@@ -22,6 +22,13 @@ module.exports = {
                 display: ['Sora', 'sans-serif'],
                 body: ['Inter', 'sans-serif'],
                 mono: ['"JetBrains Mono"', 'monospace'],
+                // Elite Typography Categories
+                elite: ['Outfit', 'sans-serif'], // Professional & Modern
+                alien: ['Orbitron', 'sans-serif'], // Cyberpunk / Tech
+                space: ['Syncopate', 'sans-serif'], // Wide Cinematic Sci-Fi
+                mech: ['Michroma', 'sans-serif'], // Smooth Futuristic
+                signature: ['"Great Vibes"', 'cursive'], // Elegant Cursive
+                handwriting: ['Caveat', 'cursive'], // Casual Marker
             }
         },
     },
